@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textField {
+  height: var(--spacing-5xl);
+  border: var(--border-width-xs) solid var(--color-gray);
+  border-radius: var(--radius-xs);
+  padding: var(--spacing-2xs);
+  font-size: var(--font-size-sm);
+}
+
+.textField:focus {
+  outline: none;
+}
+
+.textField::placeholder {
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+}
+
+.label {
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--spacing-3xs);
+}

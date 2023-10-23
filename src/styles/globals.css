@@ -1,0 +1,75 @@
+:root {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --color-primary: #e40f0f;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-feedback-danger: #ff0000;
+  --color-feedback-success: #2ab600;
+  --color-light-gray: #e8e8e8;
+  --color-gray: #d5d5d5;
+  --color-dark-gray: #747474;
+  --font-size-xxs: .5rem;
+  --font-size-xs: .8rem;
+  --font-size-sm: .9rem;
+  --font-size-md: 1rem;
+  --gap-2xs: .75rem;
+  --spacing-4xs: .25rem;
+  --spacing-3xs: .5rem;
+  --spacing-2xs: .75rem;
+  --spacing-xs: 1rem;
+  --spacing-sm: 1.25rem;
+  --spacing-md: 1.5rem;
+  --spacing-xl: 1.75rem;
+  --spacing-2xl: 2rem;
+  --spacing-3xl: 2.25rem;
+  --spacing-4xl: 2.5rem;
+  --spacing-5xl: 2.75rem;
+  --spacing-6xl: 3rem;
+  --spacing-7xl: 4rem;
+  --spacing-half: 50%;
+  --spacing-full: 100%;
+  --radius-xs: .5rem;
+  --radius-md: .75rem;
+  --radius-xl: 1rem;
+  --border-width-xs: .06rem;
+  --border-width-sm: .13rem;
+  --border-width-md: .19rem;
+  --border-width-lg: .3rem;
+  --line-height-xl: 2;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: rbg(--foreground-rgb);
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

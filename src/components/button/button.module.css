@@ -1,0 +1,31 @@
+.base {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  padding: var(--spacing-xs) var(--spacing-2xl);
+  border-radius: var(--spacing-2xl);
+  border-color: transparent;
+}
+
+.outline {
+  background-color: transparent;
+  border: var(--border-width-sm) solid var(--color-black);
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.solid {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.link {
+  background-color: transparent;
+  color: var(--color-black);
+}
+
+.base:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

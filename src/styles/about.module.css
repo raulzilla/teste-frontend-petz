@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  height: 90vh;
+}
+
+.container {
+  width: var(--spacing-half);
+}
+
+.section {
+  padding: var(--spacing-2xl) 0;
+}
+
+.subtitle {
+  padding-bottom: var(--spacing-2xl);
+}

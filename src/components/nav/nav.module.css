@@ -1,0 +1,11 @@
+.nav {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-2xl) 0 var(--spacing-7xl) var(--spacing-7xl);
+  width: var(--spacing-full);
+}
+
+.navText {
+  line-height: var(--line-height-xl);
+}

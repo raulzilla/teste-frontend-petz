@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  height: 90vh;
+}
+
+.section {
+  font-size: var(--font-size-sm);
+}
+
+.section .text {
+  margin-bottom: var(--spacing-3xs);
+}
+
+.form {
+  width: var(--spacing-half);
+  justify-content: space-between;
+  padding: var(--spacing-md) 0;
+}
+
+.container {
+  display: grid;
+  grid-gap: var(--spacing-xs);
+}
+
+.containerColumn1 {
+  grid-template-columns: 1fr;
+  padding: var(--spacing-4xl) 0;
+}
+
+.containerColumn2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.button {
+  width: fit-content;
+}
+
+.divider {
+  margin: var(--spacing-4xl) 0;
+}
+
+.dataListContainer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-dark-gray);
+  padding: var(--spacing-3xs) 0;
+}
+
+.description {
+  font-size: var(--font-size-xxs);
+}
+
+.submitContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: var(--spacing-4xl);
+}
